@@ -5,7 +5,7 @@ public class linkedlist {
 
         LinkedList<String> linkedList = new LinkedList<String>();
 
-        // push method is of adding a element into the stack.linkedlist is used with stack.
+        // push method is of adding a element into the stack. here linkedlist is used with stack.
 
         linkedList.push("A");
         linkedList.push("B");
@@ -30,7 +30,7 @@ public class linkedlist {
         System.out.println(linkedList.peekLast());
 
         linkedList.addFirst("0"); // addFirst method is used to add element to the head of linked list.
-        linkedList.addLast("1"); // addLast method is used to remove element of the tail of linked list.
+        linkedList.addLast("1"); // addLast method is used to add element to the tail of linked list.
 
         String first = linkedList.removeFirst(); // removeFirst method is used to remove element which is the head of linked list.
         String last = linkedList.removeLast(); // removeLast method is used to remove element on the tail of linkedlist.
